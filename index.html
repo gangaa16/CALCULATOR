@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+       
+        <input type="text" id="text">
+    
+
+    <div class="row">
+        <input class="btn" type="button" value="(" onclick="btnClick(value)">
+        <input class="btn" type="button" value=")" onclick="btnClick(value)">
+        <input class="btn" type="button" value="%" onclick="btnClick(value)">
+        <input class="btn" type="button" value="C" onclick="allClear(value)">
+    </div>
+    <div class="row">
+        <input class="btn" type="button" value="7" onclick="btnClick(value)">
+        <input class="btn" type="button" value="8" onclick="btnClick(value)">
+        <input class="btn" type="button" value="9" onclick="btnClick(value)">
+        <input class="btn" type="button" value="/" onclick="btnClick(value)">
+    </div>
+    <div class="row">
+        <input class="btn" type="button" value="4" onclick="btnClick(value)">
+        <input class="btn" type="button" value="5" onclick="btnClick(value)">
+        <input class="btn" type="button" value="6" onclick="btnClick(value)">
+        <input class="btn" type="button" value="*" onclick="btnClick(value)">
+    </div>
+    <div class="row">
+        <input class="btn" type="button" value="1" onclick="btnClick(value)">
+        <input class="btn" type="button" value="2" onclick="btnClick(value)">
+        <input class="btn" type="button" value="3" onclick="btnClick(value)">
+        <input class="btn" type="button" value="-" onclick="btnClick(value)">
+    </div>
+    <div class="row">
+        <input class="btn" type="button" value="0" onclick="btnClick(value)">
+        <input class="btn" type="button" value="." onclick="btnClick(value)">
+        <input class="btn" type="button" value="=" onclick="result()">
+        <input class="btn" type="button" value="+" onclick="btnClick(value)">
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
